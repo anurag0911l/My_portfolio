@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anurag | Information Science & Engineering</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <a href="#" class="logo">ANURAG / ISE</a>
+        <div class="nav-right">
+          <a href="#work" class="hide-mobile">Projects</a>
+          <a href="#skills" class="hide-mobile">Skills</a>
+          <a href="#contact" class="nav-cta hide-mobile">Want to Connect?</a>
+          <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+            🌓
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="hero-inner">
+          <div class="hero-text-wrap">
+            <h1 class="split-line">Heyy There! Welcome to</h1>
+            <h1 class="split-line accent-font">ANURAG'S Profile</h1>
+          </div>
+          <p class="hero-description">
+            Engineering logical systems and robust frontend architectures.
+          </p>
+        </div>
+        <div class="scroll-footer">
+          <span>↓</span>
+        </div>
+      </section>
+
+      <!-- TICKER SECTION -->
+      <div class="ticker-wrap parallax-ticker">
+        <div class="ticker-content">
+          <span class="ticker-item">
+            01011010 // STAYING CURIOUS // BUILDING THINGS THAT MATTER //
+            STAYING CURIOUS // BUILT FOR IMPACT// STAYING CURIOUS // BUILDING
+            THINGS THAT MATTER // BUILT FOR IMPACT
+          </span>
+        </div>
+      </div>
+
+      <!-- INTRODUCTION STORY -->
+      <section class="story-section section-padding" id="about">
+        <div class="container">
+          <div class="story-grid">
+            <div class="story-left">
+              <span class="index">About Me</span>
+            </div>
+            <div class="story-right">
+              <h2 class="reveal-text">
+                ALL IT TOOK WAS A CURIOUS MIND AND A DESIRE TO START.
+              </h2>
+              <p class="story-p">
+                I am a student of Information Science and Engineering at
+                Siddaganga Institute of Technology. My journey in tech began
+                with a fascination for how the internet works, which led me to
+                explore computer science more deeply. Over the Semesters, I’ve
+                developed skills in C PROGRAMMING, FRONTEND DEVELOPMENT, and
+                PYTHON PROGRAMMING. I am always striving to create solutions
+                that are both innovative and beneficial to mankind.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section class="skills-section section-padding" id="skills">
+        <div class="container">
+          <h2 class="accent-font section-title">TECHNICAL ARSENAL</h2>
+          <div class="skills-container">
+            <div class="skill-category">
+              <h3>Languages</h3>
+              <div class="skill-pills">
+                <span class="pill">C</span>
+                <span class="pill">Python</span>
+                <span class="pill">JavaScript (ES6+)</span>
+                <span class="pill">HTML5 / CSS3</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Core Competencies</h3>
+              <div class="skill-pills">
+                <span class="pill">Data Structures</span>
+                <span class="pill">Algorithms</span>
+                <span class="pill">Frontend Architecture</span>
+                <span class="pill">Responsive UI/UX</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h3>Tools & Libraries</h3>
+              <div class="skill-pills">
+                <span class="pill">Git & GitHub</span>
+                <span class="pill">GSAP</span>
+                <span class="pill">VS Code</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS (Featured Work - Redesigned) -->
+      <section class="work-section section-padding" id="work">
+        <div class="container">
+          <h2 class="accent-font section-title">PROJECTs LOG</h2>
+          <div class="project-list">
+            <!-- Project 1 -->
+            <div class="project-row" data-speed="1.1">
+              <div class="p-meta">01 / FRONTEND</div>
+              <h3 class="p-title">CAMPUS CONNECT 🛜</h3>
+              <p class="p-desc">
+                A highly scalable networking platform bridging the gap between
+                campus entities.
+              </p>
+              <a href="#" class="p-link">View Repository ↗</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-row" data-speed="1.2">
+              <div class="p-meta">02 / AI MODEL</div>
+              <h3 class="p-title">UNDER-TRIAL</h3>
+              <p class="p-desc">
+                An experimental machine learning pipeline optimized for data
+                inference.
+              </p>
+              <a href="#" class="p-link">View Architecture ↗</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESUME SECTION -->
+      <section class="resume-section section-padding" id="resume">
+        <div class="container text-center">
+          <h2 class="accent-font">DOCUMENTATION</h2>
+          <p class="story-p" style="margin: 20px auto">
+            Review my full technical background, academic history, and
+            engineering experience.
+          </p>
+          <button id="download-cv" class="btn-glow-red">
+            INITIATE DOWNLOAD // RESUME
+          </button>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="footer-cta section-padding" id="contact">
+        <div class="ticker-wrap border-tb">
+          <div class="ticker reverse">
+            <span>
+              WANNA KNOW MORE ABOUT ME? // WANNA KNOW MORE ABOUT ME? // WANNA
+              KNOW MORE ABOUT ME? //
+            </span>
+          </div>
+        </div>
+        <div class="container footer-content">
+          <h2 class="massive-footer">LET'S CREATE <br />TOGETHER</h2>
+          <div class="contact-links">
+            <div class="c-col">
+              <span class="label">GITHUB</span>
+              <a href="http://github.com/anurag0911l">@anurag0911l</a>
+            </div>
+            <div class="c-col">
+              <span class="label">LINKEDIN</span>
+              <a href="https://www.linkedin.com/in/anurag-choudhary0911l/"
+                >/in/anurag-choudhary0911l</a
+              >
+            </div>
+            <div class="c-col">
+              <span class="label">EMAIL</span>
+              <a href="mailto:anurag.office25@gmail.com"
+                >anurag.office25@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+  <!-- PROFESSIONAL PARALLAX FOOTER -->
+  <footer class="main-footer" id="contact">
+    <div class="footer-container">
+      <!-- TOP: REDIRECTS GRID -->
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4 class="footer-label">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#work">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#resume">Resume</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-label">Socials</h4>
+          <ul class="footer-links">
+            <li>
+              <a href="http://github.com/anurag0911l" target="_blank">GitHub</a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/anurag-choudhary0911l/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li><a href="#" target="_blank">Twitter / X</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-label">Inquiries</h4>
+          <a href="mailto:anurag.office25@gmail.com" class="footer-mail"
+            >anurag.office25@gmail.com</a
+          >
+          <p class="footer-availability">..</p>
+        </div>
+      </div>
+
+      <!-- BOTTOM: BRANDING & COPYRIGHT -->
+      <div class="footer-bottom">
+        <div class="parallax-name">
+          <h2 class="massive-name accent-font">ANURAG CHOUDHARY</h2>
+        </div>
+        <div class="footer-legal">
+          <span class="copyright">© 2026 ALL RIGHTS RESERVED</span>
+          <span class="designer-credit"
+            >UNDERGRAD. II-nd SEM @ SIT,Tumakuru</span
+          >
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
