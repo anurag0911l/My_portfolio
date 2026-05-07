@@ -1,0 +1,1 @@
+BubbleTrace is an intelligent defect-detection system that identifies bubbles on metal sheets using matrix trace and determinant concepts. Built to enhance industrial quality inspection through mathematical analysis and efficient defect recognition.
