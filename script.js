@@ -22,7 +22,7 @@ themeToggleBtn.addEventListener("click", () => {
 // --- RESUME DOWNLOAD LOGIC ---
 document.getElementById("download-cv").addEventListener("click", function() {
   // Engineer Note: Replace 'Anurag_Resume.pdf' with your actual file path in your root directory
-  const resumeUrl = "Anurag_Resume.pdf"; 
+  const resumeUrl = "Profile.pdf"; 
   
   const anchor = document.createElement("a");
   anchor.href = resumeUrl;
